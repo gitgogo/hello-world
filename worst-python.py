@@ -16,3 +16,5 @@ use_mutable_default_param(idx=2)
 # list去重
 list1 =[1,2,3,4,4,3,2,1]
 print reduce(lambda x,y: x if y in x else x+[y],[[]]+list1)
+#dict冗余
+from collection import defaultdict
