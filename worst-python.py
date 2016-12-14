@@ -20,3 +20,4 @@ print reduce(lambda x,y: x if y in x else x+[y],[[]]+list1)
 from collection import defaultdict
 
 i have a trouble,i wnat to back last day
+git diff HEAD -- filename
